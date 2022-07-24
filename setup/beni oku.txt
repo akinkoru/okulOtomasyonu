@@ -1,0 +1,5 @@
+hizli_okul ve girisKontrol klasörleri içindeki setupları kurduktan sonra veri tabanları sql servera 
+eklenerek program kurulabilir
+
+eğer bağlantı cümlesi değişecek ise programların appconfig dosyası içindeki connection string tagini değiştirerek
+bağlantı sağlanabilir

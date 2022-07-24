@@ -1,0 +1,243 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{18B1D562-7026-4130-8DDF-0B9C4348B8EE}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>Okul.WinFormUI</RootNamespace>
+    <AssemblyName>Okul.WinFormUI</AssemblyName>
+    <TargetFrameworkVersion>v4.5.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Dersler.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Dersler.Designer.cs">
+      <DependentUpon>Dersler.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Devamsizlik.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Devamsizlik.Designer.cs">
+      <DependentUpon>Devamsizlik.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Disiplin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Disiplin.Designer.cs">
+      <DependentUpon>Disiplin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Izinler.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Izinler.Designer.cs">
+      <DependentUpon>Izinler.cs</DependentUpon>
+    </Compile>
+    <Compile Include="KartAyarları.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="KartAyarları.Designer.cs">
+      <DependentUpon>KartAyarları.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Logs.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Logs.Designer.cs">
+      <DependentUpon>Logs.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Ogrenciler.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Ogrenciler.Designer.cs">
+      <DependentUpon>Ogrenciler.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Ogretmen.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Ogretmen.Designer.cs">
+      <DependentUpon>Ogretmen.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Ogretmen_Dersleri.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Ogretmen_Dersleri.Designer.cs">
+      <DependentUpon>Ogretmen_Dersleri.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Okul_Girisleri.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Okul_Girisleri.Designer.cs">
+      <DependentUpon>Okul_Girisleri.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Personeller.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Personeller.Designer.cs">
+      <DependentUpon>Personeller.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Pozisyonlar.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Pozisyonlar.Designer.cs">
+      <DependentUpon>Pozisyonlar.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Siniflar.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Siniflar.Designer.cs">
+      <DependentUpon>Siniflar.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Veliler.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Veliler.Designer.cs">
+      <DependentUpon>Veliler.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Yetkili.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Yetkili.Designer.cs">
+      <DependentUpon>Yetkili.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Dersler.resx">
+      <DependentUpon>Dersler.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Devamsizlik.resx">
+      <DependentUpon>Devamsizlik.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Disiplin.resx">
+      <DependentUpon>Disiplin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Izinler.resx">
+      <DependentUpon>Izinler.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="KartAyarları.resx">
+      <DependentUpon>KartAyarları.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Logs.resx">
+      <DependentUpon>Logs.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Ogrenciler.resx">
+      <DependentUpon>Ogrenciler.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Ogretmen.resx">
+      <DependentUpon>Ogretmen.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Ogretmen_Dersleri.resx">
+      <DependentUpon>Ogretmen_Dersleri.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Okul_Girisleri.resx">
+      <DependentUpon>Okul_Girisleri.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Personeller.resx">
+      <DependentUpon>Personeller.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Pozisyonlar.resx">
+      <DependentUpon>Pozisyonlar.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Siniflar.resx">
+      <DependentUpon>Siniflar.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Veliler.resx">
+      <DependentUpon>Veliler.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Yetkili.resx">
+      <DependentUpon>Yetkili.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config">
+      <SubType>Designer</SubType>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Okul.Entity\Okul.Entity.csproj">
+      <Project>{07890762-89f8-4523-8568-ae944b7121a8}</Project>
+      <Name>Okul.Entity</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Okul.ORM\Okul.ORM.csproj">
+      <Project>{6c6f6dcc-1df9-4f66-8e45-d6aa46501bef}</Project>
+      <Name>Okul.ORM</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cat.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\sickCat.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\banCat.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\studentCat.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
